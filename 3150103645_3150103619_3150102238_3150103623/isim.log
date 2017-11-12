@@ -1,0 +1,60 @@
+ISim log file
+Running: C:\Users\CST\Desktop\Pac-Man0.78\sim_object_display_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/CST/Desktop/Pac-Man0.78/sim_object_display_isim_beh.wdb 
+INFO: There is another simulation running in the same directory. Using database file name isim1.wdb.
+ISim P.20131013 (signature 0x8ef4fb42)
+This is a Full version of ISim.
+WARNING:  For instance uut/ip1/, width 17 of formal port addra is not equal to width 32 of actual constant.
+WARNING:  For instance uut/b1/, width 10 of formal port bean_l is not equal to width 32 of actual constant.
+WARNING:  For instance uut/b1/, width 10 of formal port bean_b is not equal to width 32 of actual constant.
+WARNING:  For instance uut/b2/, width 10 of formal port bean_l is not equal to width 32 of actual constant.
+WARNING:  For instance uut/b2/, width 10 of formal port bean_b is not equal to width 32 of actual constant.
+WARNING:  For instance uut/b3/, width 10 of formal port bean_l is not equal to width 32 of actual constant.
+WARNING:  For instance uut/b3/, width 10 of formal port bean_b is not equal to width 32 of actual constant.
+WARNING:  For instance uut/b4/, width 10 of formal port bean_l is not equal to width 32 of actual constant.
+WARNING:  For instance uut/b4/, width 10 of formal port bean_b is not equal to width 32 of actual constant.
+WARNING:  For instance uut/b5/, width 10 of formal port bean_l is not equal to width 32 of actual constant.
+WARNING:  For instance uut/b5/, width 10 of formal port bean_b is not equal to width 32 of actual constant.
+WARNING:  For instance uut/b6/, width 10 of formal port bean_l is not equal to width 32 of actual constant.
+WARNING:  For instance uut/b6/, width 10 of formal port bean_b is not equal to width 32 of actual constant.
+WARNING:  For instance uut/b7/, width 10 of formal port bean_l is not equal to width 32 of actual constant.
+WARNING:  For instance uut/b7/, width 10 of formal port bean_b is not equal to width 32 of actual constant.
+WARNING:  For instance uut/b8/, width 10 of formal port bean_l is not equal to width 32 of actual constant.
+WARNING:  For instance uut/b8/, width 10 of formal port bean_b is not equal to width 32 of actual constant.
+WARNING:  For instance uut/b9/, width 10 of formal port bean_l is not equal to width 32 of actual constant.
+WARNING:  For instance uut/b9/, width 10 of formal port bean_b is not equal to width 32 of actual constant.
+WARNING:  For instance uut/b10/, width 10 of formal port bean_l is not equal to width 32 of actual constant.
+WARNING:  For instance uut/b10/, width 10 of formal port bean_b is not equal to width 32 of actual constant.
+WARNING:  For instance uut/b11/, width 10 of formal port bean_l is not equal to width 32 of actual constant.
+WARNING:  For instance uut/b11/, width 10 of formal port bean_b is not equal to width 32 of actual constant.
+WARNING:  For instance uut/b12/, width 10 of formal port bean_l is not equal to width 32 of actual constant.
+WARNING:  For instance uut/b12/, width 10 of formal port bean_b is not equal to width 32 of actual constant.
+WARNING:  For instance uut/b13/, width 10 of formal port bean_l is not equal to width 32 of actual constant.
+WARNING:  For instance uut/b13/, width 10 of formal port bean_b is not equal to width 32 of actual constant.
+WARNING:  For instance uut/b14/, width 10 of formal port bean_l is not equal to width 32 of actual constant.
+WARNING:  For instance uut/b14/, width 10 of formal port bean_b is not equal to width 32 of actual constant.
+WARNING:  For instance uut/b15/, width 10 of formal port bean_l is not equal to width 32 of actual constant.
+WARNING:  For instance uut/b15/, width 10 of formal port bean_b is not equal to width 32 of actual constant.
+WARNING:  For instance uut/b16/, width 10 of formal port bean_l is not equal to width 32 of actual constant.
+WARNING:  For instance uut/b16/, width 10 of formal port bean_b is not equal to width 32 of actual constant.
+WARNING:  For instance uut/ip2/, width 1 of formal port ena is not equal to width 32 of actual constant.
+WARNING:  For instance uut/ip2/, width 17 of formal port addra is not equal to width 32 of actual constant.
+WARNING:  For instance uut/ip3/, width 17 of formal port addra is not equal to width 32 of actual constant.
+WARNING:  For instance uut/ip4/, width 17 of formal port addra is not equal to width 32 of actual constant.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module sim_object_display.uut.ip1.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module sim_object_display.uut.ip2.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module sim_object_display.uut.ip3.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module sim_object_display.uut.ip4.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.

@@ -1,0 +1,15 @@
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man/vga_sync.xst" -ofn "E:/Curriculum/ISE/Pac-Man/vga_sync.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man/vga_sync.xst" -ofn "E:/Curriculum/ISE/Pac-Man/vga_sync.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man/vga_sync.xst" -ofn "E:/Curriculum/ISE/Pac-Man/vga_sync.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man/vga_sync.xst" -ofn "E:/Curriculum/ISE/Pac-Man/vga_sync.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man/vga_sync.xst" -ofn "E:/Curriculum/ISE/Pac-Man/vga_sync.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man/vga_sync.xst" -ofn "E:/Curriculum/ISE/Pac-Man/vga_sync.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-3 vga_sync.ngc vga_sync.ngd  
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man/vga_sync.xst" -ofn "E:/Curriculum/ISE/Pac-Man/vga_sync.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-3 vga_sync.ngc vga_sync.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-3 vga_sync.ngc vga_sync.ngd  
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.1/VGA_Sync.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.1/VGA_Sync.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-ffg676-3 VGA_Sync.ngc VGA_Sync.ngd  
+map -intstyle ise -p xc7k160t-ffg676-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o VGA_Sync_map.ncd VGA_Sync.ngd VGA_Sync.pcf 
+par -w -intstyle ise -ol high -mt off VGA_Sync_map.ncd VGA_Sync.ncd VGA_Sync.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_Sync.twx VGA_Sync.ncd -o VGA_Sync.twr VGA_Sync.pcf 

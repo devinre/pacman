@@ -1,0 +1,3 @@
+verilog work "walk_detect.v"
+verilog work "PS2_Control.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

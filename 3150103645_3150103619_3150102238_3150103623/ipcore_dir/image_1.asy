@@ -1,0 +1,61 @@
+Version 4
+SymbolType BLOCK
+TEXT 32 32 LEFT 4 image_1
+RECTANGLE Normal 32 32 512 352
+LINE Normal 0 80 32 80
+PIN 0 80 LEFT 36
+PINATTR PinName clkin
+PINATTR Polarity IN
+LINE Normal 0 112 32 112
+PIN 0 112 LEFT 36
+PINATTR PinName clkout
+PINATTR Polarity IN
+LINE Wide 0 144 32 144
+PIN 0 144 LEFT 36
+PINATTR PinName input_sample_a[23:0]
+PINATTR Polarity IN
+LINE Wide 0 176 32 176
+PIN 0 176 LEFT 36
+PINATTR PinName input_sample_b[23:0]
+PINATTR Polarity IN
+LINE Wide 0 208 32 208
+PIN 0 208 LEFT 36
+PINATTR PinName manual_ratio[25:0]
+PINATTR Polarity IN
+LINE Normal 0 240 32 240
+PIN 0 240 LEFT 36
+PINATTR PinName manual_ratio_en
+PINATTR Polarity IN
+LINE Normal 0 272 32 272
+PIN 0 272 LEFT 36
+PINATTR PinName mclk
+PINATTR Polarity IN
+LINE Normal 0 304 32 304
+PIN 0 304 LEFT 36
+PINATTR PinName reset
+PINATTR Polarity IN
+LINE Wide 544 80 512 80
+PIN 544 80 RIGHT 36
+PINATTR PinName calc_ratio_out[25:0]
+PINATTR Polarity OUT
+LINE Wide 544 112 512 112
+PIN 544 112 RIGHT 36
+PINATTR PinName fifo_level_out[8:0]
+PINATTR Polarity OUT
+LINE Normal 544 144 512 144
+PIN 544 144 RIGHT 36
+PINATTR PinName fifo_overflow
+PINATTR Polarity OUT
+LINE Normal 544 176 512 176
+PIN 544 176 RIGHT 36
+PINATTR PinName locked
+PINATTR Polarity OUT
+LINE Wide 544 208 512 208
+PIN 544 208 RIGHT 36
+PINATTR PinName output_sample_a[23:0]
+PINATTR Polarity OUT
+LINE Wide 544 240 512 240
+PIN 544 240 RIGHT 36
+PINATTR PinName output_sample_b[23:0]
+PINATTR Polarity OUT
+

@@ -1,0 +1,65 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/CST/Desktop/Pac-Man0.78/sim_object_display_isim_beh.exe -prj C:/Users/CST/Desktop/Pac-Man0.78/sim_object_display_beh.prj work.sim_object_display work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/CST/Desktop/Pac-Man0.78/ipcore_dir/zhuanqiang_400_280.v" into library work
+Analyzing Verilog file "C:/Users/CST/Desktop/Pac-Man0.78/ipcore_dir/pacman_loading.v" into library work
+Analyzing Verilog file "C:/Users/CST/Desktop/Pac-Man0.78/ipcore_dir/pacman_death_400_280.v" into library work
+Analyzing Verilog file "C:/Users/CST/Desktop/Pac-Man0.78/ipcore_dir/game_win.v" into library work
+Analyzing Verilog file "C:/Users/CST/Desktop/Pac-Man0.78/Bean_Rom.v" into library work
+Analyzing Verilog file "C:/Users/CST/Desktop/Pac-Man0.78/background.v" into library work
+Analyzing Verilog file "C:/Users/CST/Desktop/Pac-Man0.78/sim_object_display.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/Users/CST/Desktop/Pac-Man0.78/background.v" Line 406: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/CST/Desktop/Pac-Man0.78/background.v" Line 408: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/CST/Desktop/Pac-Man0.78/background.v" Line 410: Port wea is not connected to this instance
+WARNING:HDLCompiler:189 - "C:/Users/CST/Desktop/Pac-Man0.78/background.v" Line 261: Size mismatch in connection of port <bean_l>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CST/Desktop/Pac-Man0.78/background.v" Line 262: Size mismatch in connection of port <bean_l>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CST/Desktop/Pac-Man0.78/background.v" Line 263: Size mismatch in connection of port <bean_l>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CST/Desktop/Pac-Man0.78/background.v" Line 264: Size mismatch in connection of port <bean_l>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CST/Desktop/Pac-Man0.78/background.v" Line 265: Size mismatch in connection of port <bean_l>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CST/Desktop/Pac-Man0.78/background.v" Line 266: Size mismatch in connection of port <bean_l>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CST/Desktop/Pac-Man0.78/background.v" Line 267: Size mismatch in connection of port <bean_l>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CST/Desktop/Pac-Man0.78/background.v" Line 268: Size mismatch in connection of port <bean_l>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CST/Desktop/Pac-Man0.78/background.v" Line 269: Size mismatch in connection of port <bean_l>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CST/Desktop/Pac-Man0.78/background.v" Line 270: Size mismatch in connection of port <bean_l>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CST/Desktop/Pac-Man0.78/background.v" Line 271: Size mismatch in connection of port <bean_l>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CST/Desktop/Pac-Man0.78/background.v" Line 272: Size mismatch in connection of port <bean_l>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CST/Desktop/Pac-Man0.78/background.v" Line 273: Size mismatch in connection of port <bean_l>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CST/Desktop/Pac-Man0.78/background.v" Line 274: Size mismatch in connection of port <bean_l>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CST/Desktop/Pac-Man0.78/background.v" Line 275: Size mismatch in connection of port <bean_l>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CST/Desktop/Pac-Man0.78/background.v" Line 114: Size mismatch in connection of port <addra>. Formal port size is 17-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CST/Desktop/Pac-Man0.78/background.v" Line 260: Size mismatch in connection of port <bean_l>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CST/Desktop/Pac-Man0.78/background.v" Line 406: Size mismatch in connection of port <ena>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CST/Desktop/Pac-Man0.78/background.v" Line 408: Size mismatch in connection of port <addra>. Formal port size is 17-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CST/Desktop/Pac-Man0.78/background.v" Line 410: Size mismatch in connection of port <addra>. Formal port size is 17-bit while actual signal size is 32-bit.
+Completed static elaboration
+Fuse Memory Usage: 107208 KB
+Fuse CPU Usage: 420 ms
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="kinte...
+Compiling module zhuanqiang_400_280
+Compiling module Bean_Rom
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="kinte...
+Compiling module pacman_loading
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="kinte...
+Compiling module game_win
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="kinte...
+Compiling module pacman_death_400_280
+Compiling module Object_Display
+Compiling module sim_object_display
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 15 sub-compilation(s) to finish...
+Compiled 19 Verilog Units
+Built simulation executable C:/Users/CST/Desktop/Pac-Man0.78/sim_object_display_isim_beh.exe
+Fuse Memory Usage: 116216 KB
+Fuse CPU Usage: 842 ms

@@ -1,0 +1,4 @@
+verilog isim_temp "walk_detect.v"
+verilog isim_temp "PS2_Control.v"
+verilog isim_temp "sim_pacman_control.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

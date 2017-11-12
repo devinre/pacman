@@ -1,0 +1,28 @@
+Command line:
+   sim_pacman_control_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  15440
+
+Fri Jan 06 19:42:32 2017
+
+
+ Elaboration Time: 0.156002 sec
+
+ Current Memory Usage: 697.541 Meg
+
+ Total Signals          : 31
+ Total Nets             : 107
+ Total Signal Drivers   : 17
+ Total Blocks           : 4
+ Total Primitive Blocks : 2
+ Total Processes        : 21
+ Total Traceable Variables  : 26
+ Total Scalar Nets and Variables : 241
+
+ Total Simulation Time: 0.187202 sec
+
+ Current Memory Usage: 697.541 Meg
+
+Fri Jan 06 20:16:34 2017
+

@@ -1,0 +1,16 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Dec 26 16:45:49 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Buzzer" LOCATE = SITE "AF24" LEVEL 1;
+COMP "clk" LOCATE = SITE "AC18" LEVEL 1;
+COMP "rgb<0>" LOCATE = SITE "N21" LEVEL 1;
+COMP "rgb<1>" LOCATE = SITE "N22" LEVEL 1;
+COMP "rgb<2>" LOCATE = SITE "R21" LEVEL 1;
+COMP "rgb<3>" LOCATE = SITE "P21" LEVEL 1;
+COMP "sw<0>" LOCATE = SITE "AA10" LEVEL 1;
+COMP "sw<1>" LOCATE = SITE "AB10" LEVEL 1;
+COMP "sw<2>" LOCATE = SITE "AA13" LEVEL 1;
+SCHEMATIC END;
+

@@ -1,0 +1,50 @@
+##############################################################
+#
+# Xilinx Core Generator version 14.7
+# Date: Sun Dec 25 08:02:26 2016
+#
+##############################################################
+#
+#  This file contains the customisation parameters for a
+#  Xilinx CORE Generator IP GUI. It is strongly recommended
+#  that you do not manually alter this file as it may cause
+#  unexpected and unsupported behavior.
+#
+##############################################################
+#
+#  Generated from component: xilinx.com:ip:v_asrc:1.0
+#
+##############################################################
+#
+# BEGIN Project Options
+SET addpads = false
+SET asysymbol = true
+SET busformat = BusFormatAngleBracketNotRipped
+SET createndf = false
+SET designentry = Verilog
+SET device = xc7k160t
+SET devicefamily = kintex7
+SET flowvendor = Other
+SET formalverification = false
+SET foundationsym = false
+SET implementationfiletype = Ngc
+SET package = ffg676
+SET removerpms = false
+SET simulationfiles = Behavioral
+SET speedgrade = -3
+SET verilogsim = true
+SET vhdlsim = false
+# END Project Options
+# BEGIN Select
+SELECT Asynchronous_Sample_Rate_Converter xilinx.com:ip:v_asrc:1.0
+# END Select
+# BEGIN Parameters
+CSET component_name=image_1
+CSET fifo_set_point=16
+CSET max_count=1023
+# END Parameters
+# BEGIN Extra information
+MISC pkg_timestamp=2012-10-29T01:50:46Z
+# END Extra information
+GENERATE
+# CRC: be04eb30

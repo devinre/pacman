@@ -1,0 +1,8 @@
+verilog work "ipcore_dir/zhuanqiang_400_280.v"
+verilog work "ipcore_dir/pacman_loading.v"
+verilog work "ipcore_dir/pacman_death_400_280.v"
+verilog work "ipcore_dir/game_win.v"
+verilog work "Bean_Rom.v"
+verilog work "background.v"
+verilog work "sim_object_display.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

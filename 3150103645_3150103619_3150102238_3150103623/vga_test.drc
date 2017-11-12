@@ -1,0 +1,64 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Mon Dec 26 16:47:23 2016
+
+drc -z vga_test.ncd vga_test.pcf
+
+WARNING:PhysDesignRules:2452 - The IOB rgb<4> is either not constrained (LOC) to
+   a specific location and/or has an undefined I/O Standard (IOSTANDARD). This
+   condition may seriously affect the device and will be an error in bitstream
+   creation. It should be corrected by properly specifying the pin location and
+   I/O Standard.
+WARNING:PhysDesignRules:2452 - The IOB rgb<5> is either not constrained (LOC) to
+   a specific location and/or has an undefined I/O Standard (IOSTANDARD). This
+   condition may seriously affect the device and will be an error in bitstream
+   creation. It should be corrected by properly specifying the pin location and
+   I/O Standard.
+WARNING:PhysDesignRules:2452 - The IOB rgb<6> is either not constrained (LOC) to
+   a specific location and/or has an undefined I/O Standard (IOSTANDARD). This
+   condition may seriously affect the device and will be an error in bitstream
+   creation. It should be corrected by properly specifying the pin location and
+   I/O Standard.
+WARNING:PhysDesignRules:2452 - The IOB rgb<7> is either not constrained (LOC) to
+   a specific location and/or has an undefined I/O Standard (IOSTANDARD). This
+   condition may seriously affect the device and will be an error in bitstream
+   creation. It should be corrected by properly specifying the pin location and
+   I/O Standard.
+WARNING:PhysDesignRules:2452 - The IOB rgb<8> is either not constrained (LOC) to
+   a specific location and/or has an undefined I/O Standard (IOSTANDARD). This
+   condition may seriously affect the device and will be an error in bitstream
+   creation. It should be corrected by properly specifying the pin location and
+   I/O Standard.
+WARNING:PhysDesignRules:2452 - The IOB rgb<9> is either not constrained (LOC) to
+   a specific location and/or has an undefined I/O Standard (IOSTANDARD). This
+   condition may seriously affect the device and will be an error in bitstream
+   creation. It should be corrected by properly specifying the pin location and
+   I/O Standard.
+WARNING:PhysDesignRules:2452 - The IOB hsync is either not constrained (LOC) to
+   a specific location and/or has an undefined I/O Standard (IOSTANDARD). This
+   condition may seriously affect the device and will be an error in bitstream
+   creation. It should be corrected by properly specifying the pin location and
+   I/O Standard.
+WARNING:PhysDesignRules:2452 - The IOB rgb<10> is either not constrained (LOC)
+   to a specific location and/or has an undefined I/O Standard (IOSTANDARD).
+   This condition may seriously affect the device and will be an error in
+   bitstream creation. It should be corrected by properly specifying the pin
+   location and I/O Standard.
+WARNING:PhysDesignRules:2452 - The IOB rgb<11> is either not constrained (LOC)
+   to a specific location and/or has an undefined I/O Standard (IOSTANDARD).
+   This condition may seriously affect the device and will be an error in
+   bitstream creation. It should be corrected by properly specifying the pin
+   location and I/O Standard.
+WARNING:PhysDesignRules:2452 - The IOB vsync is either not constrained (LOC) to
+   a specific location and/or has an undefined I/O Standard (IOSTANDARD). This
+   condition may seriously affect the device and will be an error in bitstream
+   creation. It should be corrected by properly specifying the pin location and
+   I/O Standard.
+WARNING:PhysDesignRules:2452 - The IOB reset is either not constrained (LOC) to
+   a specific location and/or has an undefined I/O Standard (IOSTANDARD). This
+   condition may seriously affect the device and will be an error in bitstream
+   creation. It should be corrected by properly specifying the pin location and
+   I/O Standard.
+DRC detected 0 errors and 11 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

@@ -1,0 +1,177 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 1 -n
+3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf
+
+Design file:              top.ncd
+Physical constraint file: top.pcf
+Device,package,speed:     xc7k160t,ffg676,C,-1 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+ps2k_clk    |    0.698(R)|      SLOW  |    0.650(R)|      SLOW  |clk_BUFGP         |   0.000|
+ps2k_data   |    0.024(R)|      FAST  |    2.219(R)|      SLOW  |clk_BUFGP         |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+AN<0>       |        13.420(R)|      SLOW  |         5.143(R)|      FAST  |clk_BUFGP         |   0.000|
+AN<1>       |        13.167(R)|      SLOW  |         5.012(R)|      FAST  |clk_BUFGP         |   0.000|
+AN<2>       |        13.425(R)|      SLOW  |         5.062(R)|      FAST  |clk_BUFGP         |   0.000|
+AN<3>       |        13.524(R)|      SLOW  |         5.191(R)|      FAST  |clk_BUFGP         |   0.000|
+SEGMENT<0>  |        16.331(R)|      SLOW  |         5.626(R)|      FAST  |clk_BUFGP         |   0.000|
+SEGMENT<1>  |        15.443(R)|      SLOW  |         5.391(R)|      FAST  |clk_BUFGP         |   0.000|
+SEGMENT<2>  |        15.373(R)|      SLOW  |         5.482(R)|      FAST  |clk_BUFGP         |   0.000|
+SEGMENT<3>  |        15.739(R)|      SLOW  |         5.070(R)|      FAST  |clk_BUFGP         |   0.000|
+SEGMENT<4>  |        15.256(R)|      SLOW  |         5.284(R)|      FAST  |clk_BUFGP         |   0.000|
+SEGMENT<5>  |        15.048(R)|      SLOW  |         5.356(R)|      FAST  |clk_BUFGP         |   0.000|
+SEGMENT<6>  |        14.472(R)|      SLOW  |         5.174(R)|      FAST  |clk_BUFGP         |   0.000|
+rgb<0>      |        19.687(R)|      SLOW  |         5.650(R)|      FAST  |clk_BUFGP         |   0.000|
+rgb<1>      |        20.498(R)|      SLOW  |         6.071(R)|      FAST  |clk_BUFGP         |   0.000|
+rgb<2>      |        20.549(R)|      SLOW  |         6.005(R)|      FAST  |clk_BUFGP         |   0.000|
+rgb<3>      |        21.039(R)|      SLOW  |         6.237(R)|      FAST  |clk_BUFGP         |   0.000|
+rgb<4>      |        20.905(R)|      SLOW  |         6.247(R)|      FAST  |clk_BUFGP         |   0.000|
+rgb<5>      |        20.550(R)|      SLOW  |         6.067(R)|      FAST  |clk_BUFGP         |   0.000|
+rgb<6>      |        21.302(R)|      SLOW  |         6.401(R)|      FAST  |clk_BUFGP         |   0.000|
+rgb<7>      |        21.430(R)|      SLOW  |         6.459(R)|      FAST  |clk_BUFGP         |   0.000|
+rgb<8>      |        21.467(R)|      SLOW  |         6.441(R)|      FAST  |clk_BUFGP         |   0.000|
+rgb<9>      |        21.539(R)|      SLOW  |         6.472(R)|      FAST  |clk_BUFGP         |   0.000|
+rgb<10>     |        19.657(R)|      SLOW  |         5.595(R)|      FAST  |clk_BUFGP         |   0.000|
+rgb<11>     |        19.483(R)|      SLOW  |         5.482(R)|      FAST  |clk_BUFGP         |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock rst to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+rgb<0>      |        12.624(F)|      SLOW  |         5.133(F)|      FAST  |m8/gameloading_G  |   0.000|
+rgb<1>      |        12.480(F)|      SLOW  |         5.115(F)|      FAST  |m8/gameloading_G  |   0.000|
+rgb<2>      |        12.379(F)|      SLOW  |         5.025(F)|      FAST  |m8/gameloading_G  |   0.000|
+rgb<3>      |        12.887(F)|      SLOW  |         5.263(F)|      FAST  |m8/gameloading_G  |   0.000|
+rgb<4>      |        13.331(F)|      SLOW  |         5.500(F)|      FAST  |m8/gameloading_G  |   0.000|
+rgb<5>      |        12.815(F)|      SLOW  |         5.224(F)|      FAST  |m8/gameloading_G  |   0.000|
+rgb<6>      |        13.160(F)|      SLOW  |         5.396(F)|      FAST  |m8/gameloading_G  |   0.000|
+rgb<7>      |        13.499(F)|      SLOW  |         5.562(F)|      FAST  |m8/gameloading_G  |   0.000|
+rgb<8>      |        13.048(F)|      SLOW  |         5.336(F)|      FAST  |m8/gameloading_G  |   0.000|
+rgb<9>      |        13.253(F)|      SLOW  |         5.410(F)|      FAST  |m8/gameloading_G  |   0.000|
+rgb<10>     |        12.392(F)|      SLOW  |         5.014(F)|      FAST  |m8/gameloading_G  |   0.000|
+rgb<11>     |        12.230(F)|      SLOW  |         4.901(F)|      FAST  |m8/gameloading_G  |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock sw to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+rgb<0>      |        12.534(F)|      SLOW  |         5.079(F)|      FAST  |m8/gameloading_G  |   0.000|
+rgb<1>      |        12.390(F)|      SLOW  |         5.061(F)|      FAST  |m8/gameloading_G  |   0.000|
+rgb<2>      |        12.289(F)|      SLOW  |         4.971(F)|      FAST  |m8/gameloading_G  |   0.000|
+rgb<3>      |        12.797(F)|      SLOW  |         5.209(F)|      FAST  |m8/gameloading_G  |   0.000|
+rgb<4>      |        13.241(F)|      SLOW  |         5.446(F)|      FAST  |m8/gameloading_G  |   0.000|
+rgb<5>      |        12.725(F)|      SLOW  |         5.170(F)|      FAST  |m8/gameloading_G  |   0.000|
+rgb<6>      |        13.070(F)|      SLOW  |         5.342(F)|      FAST  |m8/gameloading_G  |   0.000|
+rgb<7>      |        13.409(F)|      SLOW  |         5.508(F)|      FAST  |m8/gameloading_G  |   0.000|
+rgb<8>      |        12.958(F)|      SLOW  |         5.282(F)|      FAST  |m8/gameloading_G  |   0.000|
+rgb<9>      |        13.163(F)|      SLOW  |         5.356(F)|      FAST  |m8/gameloading_G  |   0.000|
+rgb<10>     |        12.302(F)|      SLOW  |         4.960(F)|      FAST  |m8/gameloading_G  |   0.000|
+rgb<11>     |        12.140(F)|      SLOW  |         4.847(F)|      FAST  |m8/gameloading_G  |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    2.487|         |         |         |
+sw             |    1.122|    1.122|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock rst
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+rst            |         |         |    0.288|    1.062|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock sw
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+rst            |         |         |   -0.147|   -0.147|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+rst            |rgb<0>         |   10.799|
+rst            |rgb<1>         |   10.655|
+rst            |rgb<2>         |   10.554|
+rst            |rgb<3>         |   11.062|
+rst            |rgb<4>         |   11.506|
+rst            |rgb<5>         |   10.990|
+rst            |rgb<6>         |   11.335|
+rst            |rgb<7>         |   11.674|
+rst            |rgb<8>         |   11.223|
+rst            |rgb<9>         |   11.428|
+rst            |rgb<10>        |   10.567|
+rst            |rgb<11>        |   10.405|
+sw             |rgb<0>         |   11.130|
+sw             |rgb<1>         |   10.986|
+sw             |rgb<2>         |   10.885|
+sw             |rgb<3>         |   11.393|
+sw             |rgb<4>         |   11.837|
+sw             |rgb<5>         |   11.321|
+sw             |rgb<6>         |   11.666|
+sw             |rgb<7>         |   12.005|
+sw             |rgb<8>         |   11.554|
+sw             |rgb<9>         |   11.759|
+sw             |rgb<10>        |   10.898|
+sw             |rgb<11>        |   10.736|
+---------------+---------------+---------+
+
+
+Analysis completed Sun Jan 08 09:30:43 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 527 MB
+
+
+

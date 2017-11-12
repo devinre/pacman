@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj Pac-Man -o C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/ghost_detect.tfi -lib work C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3//ghost_detect.v -module ghost_detect -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

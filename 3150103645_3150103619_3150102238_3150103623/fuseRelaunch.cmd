@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/CST/Desktop/Pac-Man0.78/sim_object_display_isim_beh.exe" -prj "C:/Users/CST/Desktop/Pac-Man0.78/sim_object_display_beh.prj" "work.sim_object_display" "work.glbl" 

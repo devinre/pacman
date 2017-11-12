@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\Curriculum\ISE\Pac-Man0.1\vga_test.ncd
+OUTFILE=E:\Curriculum\ISE\Pac-Man0.1\vga_test.bit
+FAMILY=Kintex7
+PART=xc7k160t-3ffg676
+WORKINGDIR=E:\Curriculum\ISE\Pac-Man0.1
+LICENSE=WebPack
+USER_INFO=__0_0_0

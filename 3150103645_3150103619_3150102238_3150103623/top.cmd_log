@@ -1,0 +1,1008 @@
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.1/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.1/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.1/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.1/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.1/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.1/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.1/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.1/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.1/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.1/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.1/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.1/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-ffg676-3 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.1/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.1/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.1/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.1/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-ffg676-3 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.1/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.1/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.1/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.1/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-ffg676-3 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/top.syr" 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.2/Pac-Man0.2/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.2/Pac-Man0.2/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.2/Pac-Man0.2/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.2/Pac-Man0.2/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.2/Pac-Man0.2/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.2/Pac-Man0.2/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.2/Pac-Man0.2/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.2/Pac-Man0.2/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.2/Pac-Man0.2/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 top.ngc top.ngd  
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 top.ngc top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 top.ngc top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 top.ngc top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 top.ngc top.ngd  
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.2/Pac-Man0.2/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.25/Pac-Man0.25/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.25/Pac-Man0.25/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7a100t-csg324-1 top.ngc top.ngd  
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.25/Pac-Man0.25/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7a100t-csg324-1 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.25/Pac-Man0.25/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.syr" 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.syr" 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.syr" 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.syr" 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.syr" 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.syr" 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.syr" 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.syr" 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.syr" 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.syr" 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.syr" 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.syr" 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.syr" 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.syr" 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.3/Pac-Man0.25/Pac-Man0.25/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.3/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.3/Pac-Man0.3/top.syr" 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.4/Pac-Man0.3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.5/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.5/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.5/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.5/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.5/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.5/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.5/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.5/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.5/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.5/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.5/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.5/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.5/Pac-Man0.5/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.5/Pac-Man0.5/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.5/Pac-Man0.5/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.5/Pac-Man0.5/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.5/Pac-Man0.5/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.5/Pac-Man0.5/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.5/Pac-Man0.5/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.5/Pac-Man0.5/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.5/Pac-Man0.5/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.5/Pac-Man0.5/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.5/Pac-Man0.5/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.5/Pac-Man0.5/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.5/Pac-Man0.6/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.5/Pac-Man0.6/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.5/Pac-Man0.6/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.5/Pac-Man0.6/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.5/Pac-Man0.6/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.5/Pac-Man0.6/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.7/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.7/top.syr" 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.7/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.7/top.syr" 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.7/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.7/top.syr" 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.7/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.7/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/study/shuluo/project/Pac-Man0.7/top.xst" -ofn "E:/study/shuluo/project/Pac-Man0.7/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.7/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.7/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.75/Pac-Man0.75/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.75/Pac-Man0.75/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.75/Pac-Man0.75/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.75/Pac-Man0.75/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.75/Pac-Man0.75/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.75/Pac-Man0.75/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.75/Pac-Man0.75/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.75/Pac-Man0.75/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.76/Pac-Man0.76/Pac-Man0.75/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.76/Pac-Man0.76/Pac-Man0.75/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.76/Pac-Man0.76/Pac-Man0.75/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.76/Pac-Man0.76/Pac-Man0.75/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.76/Pac-Man0.76/Pac-Man0.75/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.76/Pac-Man0.76/Pac-Man0.75/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.76/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.76/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.76/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.76/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.76/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.76/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.76/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.76/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.76/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.76/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.76/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.76/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.76/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.76/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.76/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.76/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.76/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.76/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.76/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.76/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.76/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.76/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.76/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.76/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.76/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.76/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.76/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.76/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.76/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.76/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.76/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.76/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.76/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.76/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.76/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.76/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.76/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.76/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.76/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.76/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.76/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.76/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.76/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.76/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.76/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.76/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.76/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.76/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.76/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.76/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.76/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.76/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.76/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.76/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.76/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.76/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.76/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.76/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.76/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.76/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.78/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.78/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.78/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.78/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.78/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.78/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.78/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.78/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.78/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.78/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.78/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.78/top.syr" 
+xst -intstyle ise -ifn "E:/Curriculum/ISE/Pac-Man0.78/top.xst" -ofn "E:/Curriculum/ISE/Pac-Man0.78/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.78/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.78/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.78/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.78/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.78/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.78/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.78/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.78/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.78/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.78/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.78/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.78/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.78/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.78/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.78/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.78/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.78/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.78/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.78/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.78/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.78/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.78/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.78/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.78/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.78/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.78/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.78/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.78/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.78/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.78/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.78/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.78/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.78/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.78/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.78/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.78/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.78/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.78/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.78/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.78/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.78/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.78/top.syr" 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.78/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.78/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.78/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.78/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.78/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.78/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+xst -intstyle ise -ifn "C:/Users/CST/Desktop/Pac-Man0.78/top.xst" -ofn "C:/Users/CST/Desktop/Pac-Man0.78/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 

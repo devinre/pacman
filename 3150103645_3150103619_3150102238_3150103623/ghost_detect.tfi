@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+ghost_detect instance_name (
+    .block_x_reg(block_x_reg), 
+    .block_y_reg(block_y_reg), 
+    .valid(valid)
+    );
+
+

@@ -1,0 +1,84 @@
+## (c) Copyright 2012 Xilinx, Inc. All rights reserved.
+## 
+## This file contains confidential and proprietary information
+## of Xilinx, Inc. and is protected under U.S. and
+## international copyright and other intellectual property
+## laws.
+## 
+## DISCLAIMER
+## This disclaimer is not a license and does not grant any
+## rights to the materials distributed herewith. Except as
+## otherwise provided in a valid license issued to you by
+## Xilinx, and to the maximum extent permitted by applicable
+## law: (1) THESE MATERIALS ARE MADE AVAILABLE "AS IS" AND
+## WITH ALL FAULTS, AND XILINX HEREBY DISCLAIMS ALL WARRANTIES
+## AND CONDITIONS, EXPRESS, IMPLIED, OR STATUTORY, INCLUDING
+## BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, NON-
+## INFRINGEMENT, OR FITNESS FOR ANY PARTICULAR PURPOSE; and
+## (2) Xilinx shall not be liable (whether in contract or tort,
+## including negligence, or under any other theory of
+## liability) for any loss or damage of any kind or nature
+## related to, arising under or in connection with these
+## materials, including for any direct, or any indirect,
+## special, incidental, or consequential loss or damage
+## (including loss of data, profits, goodwill, or any type of
+## loss or damage suffered as a result of any action brought
+## by a third party) even if such damage or loss was
+## reasonably foreseeable or Xilinx had been advised of the
+## possibility of the same.
+## 
+## CRITICAL APPLICATIONS
+## Xilinx products are not designed or intended to be fail-
+## safe, or for use in any application requiring fail-safe
+## performance, such as life-support or safety devices or
+## systems, Class III medical devices, nuclear facilities,
+## applications related to the deployment of airbags, or any
+## other applications that could lead to death, personal
+## injury, or severe property or environmental damage
+## (individually and collectively, "Critical
+## Applications"). Customer assumes the sole risk and
+## liability of any use of Xilinx products in Critical
+## Applications, subject only to applicable laws and
+## regulations governing limitations on product liability.
+## 
+## THIS COPYRIGHT NOTICE AND DISCLAIMER MUST BE RETAINED AS
+## PART OF THIS FILE AT ALL TIMES.
+## 
+## 
+##------------------------------------------------------------------------------
+##
+## Constraint file for the ASRC on Spartan-6.
+##
+
+
+ NET mclk TNM_NET = mclk;
+ TIMESPEC TS_mclk = PERIOD mclk 150 MHz HIGH 50 % INPUT_JITTER 100 ps;
+
+########################## Multi-cycle paths #####################################
+INST *ratio_calc*/*locked TNM = clkout; #regs that take once per clkout
+TIMESPEC TS_clkout = FROM FFS TO clkout TS_mclk  / 4 ;
+
+INST *timing_control*/*state_* TNM = state;
+TIMESPEC TS_state = FROM state TO  FFS TS_mclk  / 2 ;
+ 
+INST *timing_control*/latency_cnt_* TNM = latency_cnt;
+INST *timing_control*/dividend_*  TNM = dividend;
+TIMESPEC TS_dividend = FROM latency_cnt TO dividend TS_mclk  / 4;
+
+# Coefficient accumulate (FIR state) to reciprocate operation (SCALE state)
+INST *filt_interp_gold*/*coef_accum_* TNM = coef_accum;  
+INST *timing_control*/divisor_*    TNM = coef_accum_multi_cycle;
+INST *fir_gold*/*                  TNM = coef_accum_multi_cycle;
+TIMESPEC TS_accum_to_recip = FROM coef_accum TO coef_accum_multi_cycle TS_mclk  / 4;
+
+# Sample buffer memory to FIR multiplier
+INST *ring_buffer_gold*/buffer_mem_gold*/* TNM = buffer_mem_gold;  
+INST *fir_gold_*/m_b*    TNM = multiplier_b_input;
+TIMESPEC TS_buffer_mem_to_fir = FROM buffer_mem_gold TO multiplier_b_input TS_mclk  / 2;
+
+# moving_sum adder is designed as a multi-cycle path since moving_sum 
+# is used only when moving the start pointer which happens only once per input sample
+# the locked bit is also updated on 2 states after moving_sum is used so the preload mode
+# will have  nearly a full input sample time to set up.
+INST *ratio_filt*/moving_ave_26*/moving_sum_* TNM = FFS moving_sum;
+TIMESPEC TS_moving_sum =  TO moving_sum TS_mclk  / 4;
